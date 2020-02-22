@@ -39,4 +39,8 @@ public class Employee
    private String name;
    private double salary;
    private Date hireDay;
+   
+   public String toString(){
+    return(this.name +" " + this.salary + " " + this.hireDay); 
+   }
 }
